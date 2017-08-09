@@ -10,6 +10,6 @@ echo json_encode($outp);
 if($_REQUEST['option'] == 'post'){
   echo "testing...";
   echo $_REQUEST['id'];
-  echo $_REQUEST['name'];
+  echo $_REQUEST['name']; 
 }
 ?>
